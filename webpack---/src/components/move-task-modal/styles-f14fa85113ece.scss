@@ -1,0 +1,7 @@
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = require("../../../../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".cvat-task-move-modal>.ant-modal-content>.ant-modal-body>div:nth-child(1){margin-bottom:16px}.cvat-task-move-modal>.ant-modal-content>.ant-modal-body>div:nth-child(1)>div:nth-child(1){padding-right:16px}.cvat-task-move-modal>.ant-modal-content>.ant-modal-header .anticon{margin-left:8px}.cvat-task-move-modal>.ant-modal-content>.ant-modal-header .anticon>svg{color:rgba(0,0,0,.45)}.cvat-task-move-modal>.ant-modal-content .ant-select{margin:0 8px;width:200px}.cvat-move-task-label-mapper-item{margin:16px 0}", ""]);
+// Exports
+module.exports = exports;

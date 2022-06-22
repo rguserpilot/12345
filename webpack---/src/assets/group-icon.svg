@@ -1,0 +1,28 @@
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import React from "react";
+export default (({
+  styles = {},
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  width: "40",
+  height: "40",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("g", {
+  fill: "none"
+}, /*#__PURE__*/React.createElement("path", {
+  stroke: "#4A4A4A",
+  strokeWidth: "1.473",
+  d: "M4.236 9.191h31.527v21.8H4.236z"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "#4A4A4A",
+  d: "M2 7h4.5v4.364H2zm31.5 0H38v4.364h-4.5zm0 21.818H38v4.364h-4.5zm-31.5 0h4.5v4.364H2z"
+}), /*#__PURE__*/React.createElement("g", {
+  stroke: "#4A4A4A",
+  strokeWidth: "1.591"
+}, /*#__PURE__*/React.createElement("path", {
+  fill: "#4A4A4A",
+  d: "M10.295 13.613h13.409v8.591H10.295z"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M17.795 17.977h13.409v8.591H17.795z"
+})))));

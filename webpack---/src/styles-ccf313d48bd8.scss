@@ -1,0 +1,7 @@
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = require("../../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, "hr{border:none;border-top:1px solid #c3c3c3;height:1px}.cvat-spinner{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}.cvat-not-found{margin:10% 25%}.cvat-text-color{color:#303030}.cvat-title{font-weight:400;font-size:21px;color:#303030;padding-top:5px}.ant-slider>.ant-slider-track{background-color:#1890ff}.ant-slider>.ant-slider-handle{border-color:#1890ff}.ant-notification{top:48px !important;right:0 !important;margin-right:0}.cvat-info-circle-icon{color:#0074d9}.cvat-danger-circle-icon{color:#ff4136}#root{width:100%;height:100%;display:grid;min-width:1024px}#layout-grid{overflow:hidden;position:fixed;top:0;left:0;z-index:9999;pointer-events:none}.cvat-cloud-storage-select-provider{display:flex;justify-content:flex-start;align-items:center}.cvat-cloud-storage-select-provider>svg{margin-right:8px}.cvat-divider{margin:4px 0}", ""]);
+// Exports
+module.exports = exports;

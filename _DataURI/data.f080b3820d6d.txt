@@ -1,0 +1,1 @@
+chrome-extension://oiaejidbmkiecgbjeifoejpgmdaleoha/editor/index.js

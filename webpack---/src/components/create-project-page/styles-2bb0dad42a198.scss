@@ -1,0 +1,7 @@
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = require("../../../../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".cvat-create-project-form-wrapper{text-align:center;padding-top:40px;overflow-y:auto;height:90%;position:fixed;width:100%}.cvat-create-project-form-wrapper>div>span{font-size:32px}.cvat-create-project-content{margin-top:16px;width:100%;height:auto;border:1px solid #c3c3c3;border-radius:3px;padding:16px;background:#fff;text-align:initial}.cvat-create-project-content>div:not(first-child){margin-top:8px}.cvat-create-project-content>div:nth-child(4){display:flex;justify-content:flex-end}.cvat-create-project-content>div:nth-child(4)>button{width:120px}", ""]);
+// Exports
+module.exports = exports;

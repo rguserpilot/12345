@@ -1,0 +1,7 @@
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = require("../../../../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".ant-menu.cvat-actions-menu{box-shadow:0 3px 6px -4px rgba(0,0,0,.12),0 6px 16px 0 rgba(0,0,0,.08),0 9px 28px 8px rgba(0,0,0,.05)}.ant-menu.cvat-actions-menu>li:hover{background-color:rgba(24,144,255,.05)}.ant-menu.cvat-actions-menu .ant-menu-submenu-title{margin:0;width:13em}.cvat-menu-load-submenu-item>span[role=img],.cvat-menu-dump-submenu-item>span[role=img],.cvat-menu-export-submenu-item>span[role=img]{color:#0074d9}.cvat-menu-load-submenu-item:hover,.cvat-menu-dump-submenu-item:hover,.cvat-menu-export-submenu-item:hover{background-color:rgba(24,144,255,.05)}.ant-menu-item.cvat-menu-load-submenu-item{margin:0;padding:0}.ant-menu-item.cvat-menu-load-submenu-item>span>.ant-upload{width:100%;height:100%}.ant-menu-item.cvat-menu-load-submenu-item>span>.ant-upload>span>button{width:100%;height:100%;text-align:left}.cvat-menu-icon{font-size:16px;margin-left:8px;align-self:center}#cvat-export-task-loading{margin-left:10}", ""]);
+// Exports
+module.exports = exports;

@@ -1,0 +1,7 @@
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = require("../../../../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".cvat-feedback-button{position:fixed;bottom:20px;right:20px;padding:0;height:auto}.cvat-feedback-button>span[role=img]{font-size:40px}", ""]);
+// Exports
+module.exports = exports;

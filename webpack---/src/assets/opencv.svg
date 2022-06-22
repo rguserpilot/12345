@@ -1,0 +1,13 @@
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import React from "react";
+export default (({
+  styles = {},
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "40",
+  height: "40"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M11.594 6.323c3.37-6.35 12.4-6.683 16.213-.598 2.956 4.715 1.077 10.567-3.262 13.087l-2.817-4.88c1.726-1.002 2.473-3.33 1.298-5.206-1.518-2.421-5.11-2.289-6.45.238-.993 1.869-.206 4.02 1.428 4.97l-2.82 4.884c-4.107-2.388-6.084-7.796-3.59-12.495zm1.507 22.886c-.003 1.893-1.477 3.658-3.595 3.736-2.858.105-4.765-2.937-3.424-5.463 1.037-1.953 3.419-2.474 5.148-1.492l2.825-4.893C9.708 18.617 3.71 19.927 1.1 24.841c-3.37 6.35 1.423 13.998 8.607 13.733 5.314-.197 9.015-4.615 9.037-9.365H13.1zm22.133-8.09L32.416 26c1.732 1 2.484 3.333 1.306 5.211-1.517 2.421-5.109 2.289-6.45-.238-.994-1.872-.203-4.028 1.437-4.975l-2.82-4.884c-4.113 2.386-6.094 7.798-3.598 12.5 3.37 6.35 12.4 6.683 16.213.598 2.957-4.718 1.074-10.575-3.27-13.092z"
+})));

@@ -1,0 +1,7 @@
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = require("../../../../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".cvat-create-task-form-wrapper{text-align:center;padding-top:40px;overflow-y:auto;height:90%;position:fixed;width:100%}.cvat-create-task-form-wrapper>div>span{font-size:36px}.cvat-create-task-form-wrapper .cvat-create-task-content{margin-top:20px;width:100%;height:auto;border:1px solid #c3c3c3;border-radius:3px;padding:20px;background:#fff;text-align:initial}.cvat-create-task-form-wrapper .cvat-create-task-content>div:not(first-child){margin-top:10px}.cvat-create-task-form-wrapper .cvat-create-task-content .cvat-create-task-submit-section>button{float:right;width:120px}.cvat-create-task-form-wrapper .cvat-create-task-content .cvat-project-search-field{width:100%}", ""]);
+// Exports
+module.exports = exports;

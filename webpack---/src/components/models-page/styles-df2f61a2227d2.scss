@@ -1,0 +1,7 @@
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = require("../../../../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".cvat-models-page{padding-top:16px;padding-bottom:8px;height:90%;overflow:auto;position:fixed;width:100%}.cvat-models-page>div:nth-child(1){margin-bottom:8px}.cvat-empty-models-list{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}.cvat-models-list{height:100%;overflow-y:auto}.cvat-models-list-item{width:100%;height:auto;border:1px solid #c3c3c3;border-radius:3px;margin-bottom:16px;padding:16px;background:#fff}.cvat-models-list-item:hover{border:1px solid #40a9ff}.cvat-models-list-item>div{display:flex;align-items:center}.cvat-models-list-item>div:nth-child(2)>span{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.cvat-models-list-item>div:nth-child(3)>span{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}", ""]);
+// Exports
+module.exports = exports;

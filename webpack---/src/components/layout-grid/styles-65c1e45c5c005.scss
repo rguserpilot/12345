@@ -1,0 +1,7 @@
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = require("../../../../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".grid{display:grid}.grid::before,.grid::after{content:\"\";position:fixed;top:0;left:0;width:100%;height:100vw}.grid.sm{grid-template-rows:repeat(1000, 4px);grid-template-columns:repeat(1000, 4px)}.grid.sm::before,.grid.sm::after{background:linear-gradient(to right, rgba(0, 0, 0, 0.15) 1px, transparent 1px);background-size:4px}.grid.sm::after{transform:rotate(90deg)}.grid.lg{grid-template-rows:repeat(1000, 16px);grid-template-columns:repeat(1000, 16px)}.grid.lg::before,.grid.lg::after{background:linear-gradient(to right, rgba(0, 0, 0, 0.15) 1px, transparent 1px);background-size:16px}.grid.lg::after{transform:rotate(90deg)}", ""]);
+// Exports
+module.exports = exports;

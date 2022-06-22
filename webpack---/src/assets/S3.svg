@@ -1,0 +1,53 @@
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import React from "react";
+export default (({
+  styles = {},
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  width: "1em",
+  height: "1em",
+  viewBox: "0 0 16 16",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("g", {
+  clipPath: "url(#clip0)"
+}, /*#__PURE__*/React.createElement("path", {
+  d: "M1.289 2.771L0 3.303v9.343l1.289.53.008-.008V2.778l-.008-.007z",
+  fill: "#8C3123"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M8.188 11.82l-6.899 1.355V2.771l6.899 1.327v7.721z",
+  fill: "#E05243"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M5.073 9.696L8 10.004l.018-.035.016-3.962L8 5.976l-2.927.303v3.417z",
+  fill: "#8C3123"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M8 11.835l6.71 1.343.011-.014V2.78l-.01-.009L8 4.113v7.722z",
+  fill: "#8C3123"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.927 9.696L8 10.004V5.976l2.927.303v3.417z",
+  fill: "#E05243"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.927 4.626L8 5.066l-2.927-.44 2.923-.632 2.93.632z",
+  fill: "#5E1F18"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.927 11.345L8 10.9l-2.927.444 2.923.673 2.93-.673z",
+  fill: "#F2B0A9"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M5.073 4.626L8 4.028l.023-.006V.016L8 0 5.073 1.208v3.418z",
+  fill: "#8C3123"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.927 4.626L8 4.028V0l2.927 1.208v3.418z",
+  fill: "#E05243"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M8 15.97l-2.927-1.208v-3.417L8 11.943l.043.04L8.03 15.9 8 15.97z",
+  fill: "#8C3123"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M8 15.97l2.926-1.208v-3.417L8 11.943v4.027zM14.71 2.771l1.29.532v9.343l-1.29.532V2.771z",
+  fill: "#E05243"
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+  id: "clip0"
+}, /*#__PURE__*/React.createElement("path", {
+  fill: "#fff",
+  d: "M0 0h16v16H0z"
+})))));
